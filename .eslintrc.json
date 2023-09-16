@@ -19,6 +19,8 @@
     ],
     "rules": {
         "linebreak-style": "off",
-        "no-undef": "off"
+        "no-undef": "off",
+        "no-underscore-dangle": "off",
+        "class-methods-use-this": "off"
     }
 }
