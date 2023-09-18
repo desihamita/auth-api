@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1695041641519" clover="3.2.0">
-  <project timestamp="1695041641519" name="All files">
-    <metrics statements="84" coveredstatements="84" conditionals="35" coveredconditionals="33" methods="19" coveredmethods="19" elements="138" coveredelements="136" complexity="0" loc="84" ncloc="84" packages="7" files="12" classes="12"/>
+<coverage generated="1695042331348" clover="3.2.0">
+  <project timestamp="1695042331348" name="All files">
+    <metrics statements="90" coveredstatements="90" conditionals="36" coveredconditionals="34" methods="21" coveredmethods="21" elements="147" coveredelements="145" complexity="0" loc="90" ncloc="90" packages="8" files="13" classes="13"/>
     <package name="src.Applications.security">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="PasswordHash.js" path="D:\dicoding- mbkm\backend\auth-api\src\Applications\security\PasswordHash.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.Applications.use_case">
@@ -126,6 +126,18 @@
         <line num="34" count="2" type="stmt"/>
         <line num="35" count="2" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Infrastructures.security">
+      <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="BcryptPasswordHash.js" path="D:\dicoding- mbkm\backend\auth-api\src\Infrastructures\security\BcryptPasswordHash.js">
+        <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
       </file>
     </package>
     <package name="tests">
